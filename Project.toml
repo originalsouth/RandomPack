@@ -1,0 +1,7 @@
+name = "RandomPack"
+uuid = "107c7888-4f8d-401c-8b78-2acd6c6b9340"
+authors = ["Benny <mail2benny+github@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
