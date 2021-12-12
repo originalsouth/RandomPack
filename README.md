@@ -1,6 +1,8 @@
 # RandomPack
 Exploring the Julia PackageCompiler 
 
+See https://discourse.julialang.org/t/memory-management-and-packagecompiler-libraries/72980
+
 ## Building
 Assuming you are in the folder where `README.md` remains, you can build the library by running:
 ```
