@@ -1,7 +1,7 @@
-#RandomPack
+# RandomPack
 Exploring the Julia PackageCompiler 
 
-##Building
+## Building
 Assuming you are in the folder where `README.md` remains, you can build the library by running:
 ```
 make -C build
@@ -12,7 +12,7 @@ make JULIA=/path/to/julia-*/bin/julia -C build
 ```
 Upon executing the makefile you probably want to get a coffee.
 
-##Running
+## Running
 Because we are running with a locally generated library run the compiled program as such:
 ```
 LD_LIBRARY_PATH=build/release/lib/ build/RandomPack
