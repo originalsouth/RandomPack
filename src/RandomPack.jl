@@ -19,7 +19,6 @@ Base.@ccallable function random_pack_release(input::Cstring)::Cint
         pop!(store, input)
         return Cint(0)
     else
-        println(store)
         return Cint(1)
     end
 end
